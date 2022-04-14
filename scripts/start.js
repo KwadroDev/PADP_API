@@ -1,11 +1,11 @@
 var MAX_SUPPLY = null
 const CONTRACT_ADDRESS = "0xd184a0b5da3a8bF6a5E766E3c0Fe8CE8115375E7"
-const PORT = 3000
+const PORT = 80
 const IS_REVEALED = false
 const UNREVEALED_METADATA = {
     "name": "Unrevealed Poninis",
     "description": "???",
-    "image": "http://161.35.106.225:3000/unrevealed/image.gif",
+    "image": "http://161.35.106.225:80/unrevealed/image.gif",
     "attributes": [{ "???": "???" }]
 }
 
