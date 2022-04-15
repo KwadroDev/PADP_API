@@ -24,7 +24,7 @@ async function uploadFileList(files) {
         var file_name = crypto.randomBytes(20).toString('hex')
         metadata_json["image"] = IMAGE_BASE_URL + file_name
         fs.writeFileSync(METADATA_DIRECTORY + file, JSON.stringify(metadata_json))
-        await uploadSingleFile(IMAGES_DIRECTORY + file + ".png", file_name).catch(console.error)
+        await uploadSingleFile(IMAGES_DIRECTORY + file + ".gif", file_name).catch(console.error)
         console.log(`Uploaded ${file}`)
     }
 }
