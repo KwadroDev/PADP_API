@@ -10,7 +10,7 @@ const fileToIpfs = require('@kleros/file-to-ipfs')
 async function uploadFileList(files) {
   for (const file of files) {
     console.log(`Uploading ${file}`)
-    let file_name = await fileToIpfs(IMAGES_DIRECTORY + file + ".png").catch(console.error)
+    let file_name = await fileToIpfs(IMAGES_DIRECTORY + file + ".gif").catch(console.error)
     let rawdata = fs.readFileSync(METADATA_DIRECTORY + file)
     let metadata_json = JSON.parse(rawdata)
     metadata_json["image"] = IMAGE_BASE_URL + file_name
