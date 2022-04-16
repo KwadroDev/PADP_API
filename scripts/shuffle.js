@@ -1,7 +1,7 @@
 let METADATA_DIRECTORY = './../metadata/'
 const fs = require('fs')
 const path = require('path')
-const MAX_SUPPLY = 20
+const MAX_SUPPLY = 10
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max)
