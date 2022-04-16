@@ -1,7 +1,7 @@
 let METADATA_DIRECTORY = './metadata/'
 let IMAGES_DIRECTORY = './images/'
-let BUCKET_NAME = 'poninis_exclusive_club_pegasus_access'
-let IMAGE_BASE_URL = 'https://storage.googleapis.com/poninis_exclusive_club_pegasus_access/'
+let BUCKET_NAME = 'poninisalmighty'
+let IMAGE_BASE_URL = 'https://storage.googleapis.com/poninisalmighty/'
 
 const fs = require('fs')
 const crypto = require('crypto')
