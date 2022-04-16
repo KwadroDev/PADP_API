@@ -1,6 +1,5 @@
-node_modules
 gcs.json
 .env
-images
+node_modules
 metadata
-package-lock.json
+images
