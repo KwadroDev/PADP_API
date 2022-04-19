@@ -1,5 +1,5 @@
 var MAX_SUPPLY = null
-const CONTRACT_ADDRESS = "0x4e22E42f1ef4F20394C2aD46edE4C2B81e01faAb"
+const CONTRACT_ADDRESS = "0xf0FCBeC83AC930a0cc062D303e10f33F86762A98"
 const PORT = 80
 const IS_REVEALED = true
 const UNREVEALED_METADATA = {
@@ -15,7 +15,7 @@ const Web3 = require('web3')
 require('dotenv').config()
 const abi = require('../Contract.json').abi
 const Contract = require('web3-eth-contract')
-Contract.setProvider(process.env.MUMBAI_RPC_URL)
+Contract.setProvider(process.env.MAINNET_RPC_URL)
 const contract = new Contract(abi, CONTRACT_ADDRESS)
 
 const app = express()
